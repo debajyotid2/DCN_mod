@@ -7,16 +7,11 @@ This is a modification of PyTorch reimplementation of Deep Clustering Network (D
 
 #### Results
 
----|NMI |ARI |ACC |Runtime(s) 
---- | --- | --- | --- |--- 
+ |NMI |ARI |ACC |Runtime(s) 
 Original paper (Yang et al, 2017) |0.81 |0.75 |0.83 |- 
---- | --- | --- | --- |--- 
 DCN with convolutions and skip connections |0.425 |0.21 |0.39 |2870 
---- | --- | --- | --- |--- 
 DCN with dense layers |0.45 |0.26 |- |3150 
---- | --- | --- | --- |--- 
 DCN with convolutions |0.635 |0.48 |0.63 |3021
---- | --- | --- | --- |--- 
 
 #### Hyperparameter tuning
 ![image](https://user-images.githubusercontent.com/92257044/162744867-c1248148-f8a1-45b6-86e4-44499f0f68c5.png)
